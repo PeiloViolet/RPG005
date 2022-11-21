@@ -1,0 +1,171 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.5.2",
+	"FriendlyName": "AscentCombatFramework",
+	"Description": "",
+	"Category": "ACF Tools",
+	"CreatedBy": "Pask",
+	"CreatedByURL": "www.darktowerinteractive.com",
+	"DocsURL": "https://www.wikiful.com/@ACF/ascent-combat-framework-wiki/ascent-combat-framework",
+	"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/19f41df17ac5412c96ac38cbaeb43810",
+	"SupportURL": "https://discord.gg/ahqhXnJ",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AscentCombatFramework",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "AdvancedRPGSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "AscentCoreInterfaces",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "CinematicCameraManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "CollisionsManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "TargetingSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "AbilitySystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "CraftingSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "CombinedAnimationsSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MountSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "ExecutionsSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "InventorySystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MusicManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "SpellActions",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "AscentSaveSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayCameras",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}

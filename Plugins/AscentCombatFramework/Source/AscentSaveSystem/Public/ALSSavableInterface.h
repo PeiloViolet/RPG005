@@ -1,0 +1,38 @@
+// Copyright (C) Developed by Pask, Published by Dark Tower Interactive SRL 2021. All Rights Reserved. 
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "UObject/Interface.h"
+#include "ALSSavableInterface.generated.h"
+
+// This class does not need to be modified.
+UINTERFACE(BlueprintType, Blueprintable)
+class UALSSavableInterface : public UInterface
+{
+	GENERATED_BODY()
+};
+
+/**
+ * 
+ */
+class ASCENTSAVESYSTEM_API IALSSavableInterface
+{
+	GENERATED_BODY()
+
+public:
+
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = ALS)
+	void OnSaved();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = ALS)
+	void OnLoaded();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = ALS)
+	bool ShouldBeIgnored();
+	virtual bool ShouldBeIgnored_Implementation(){
+		return false;
+	}
+
+};
